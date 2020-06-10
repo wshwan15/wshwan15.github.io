@@ -76,7 +76,6 @@ Feb 1 2019
 * Improved `welcome` layout generation performance
 * Fixed a bug that prevented scrolling to headlines with non-ascii characters (Thanks [@ForelaxX](https://github.com/ForelaxX))
 
-
 ## v8.1.1
 Sep 1 2018
 {:.heading.post-date}
