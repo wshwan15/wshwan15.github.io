@@ -399,8 +399,3 @@ feed:
     - library
     - project
     - portfolio
-
-# disque comments are broken if you send https:// along with url, this url is same
-# deleting the value would remove it from footer.
-disqus_url: http://wshwan15@github.io
-disqus_id: http-wshwan15-github-io
