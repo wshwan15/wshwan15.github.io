@@ -1,11 +1,11 @@
 ---
 layout: tag-list
-title: Android Library
-slug: lib-android
+title: SQL Library
+slug: lib-sql
 category: library
 menu: false
 submenu: true
-order: 1
+order: 2
 description: >
-   안드로이드 함수 사전
+   SQL
 ---
