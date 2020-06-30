@@ -2,7 +2,7 @@
 layout: tag-list
 title: Swift
 slug: swift
-category: develop
+category: development
 menu: false
 submenu: true
 order: 2

@@ -2,7 +2,7 @@
 layout: tag-list
 title: React
 slug: react
-category: develop
+category: development
 menu: false
 submenu: true
 order: 3

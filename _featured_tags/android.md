@@ -2,7 +2,7 @@
 layout: tag-list
 title: Android
 slug: android
-category: develop
+category: development
 menu: false
 submenu: true
 order: 1

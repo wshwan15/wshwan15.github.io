@@ -2,7 +2,7 @@
 layout: tag-list
 title: Other
 slug: other
-category: develop
+category: development
 menu: false
 submenu: true
 order: 7

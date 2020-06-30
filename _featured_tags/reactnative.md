@@ -2,7 +2,7 @@
 layout: tag-list
 title: ReactNative
 slug: reactnative
-category: develop
+category: development
 menu: false
 submenu: true
 order: 4

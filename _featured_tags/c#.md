@@ -2,7 +2,7 @@
 layout: tag-list
 title: C#
 slug: c#
-category: develop
+category: development
 menu: false
 submenu: true
 order: 6
