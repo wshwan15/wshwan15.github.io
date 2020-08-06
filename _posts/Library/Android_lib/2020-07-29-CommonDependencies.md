@@ -14,6 +14,8 @@ tags : android
 
 #### LAST UPDATE 2020-08-06
 
+<br>
+
 ###### android
 
 ```java
@@ -22,6 +24,8 @@ dataBinding{
         enabled = true;
     }
 ```
+
+<br>
 
 ###### Dependencies
 

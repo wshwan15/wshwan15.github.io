@@ -3,7 +3,7 @@ layout : post
 title : "Lambda"
 subtitle : "람다식 사용하기"
 category : development
-tags : android#
+tags : android
 ---
 
 # Android 람다식(Lambda Expressions) 
