@@ -3,7 +3,7 @@ layout : post
 title : "Common Dependencies"
 subtitle : "자주 쓰는 dependencies 정리"
 category : library
-tags : android
+tags : lib-android
 ---
 
 # Common build.gradle

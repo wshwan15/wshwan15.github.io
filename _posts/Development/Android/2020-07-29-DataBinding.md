@@ -356,7 +356,7 @@ String 형태의 URL을 가져올 것이기 때문에 String이 된다.
             android:id="@+id/iv"
             android:layout_width="65dp"
             android:layout_height="65dp"
-            app:bind_image_url="@{models.imageURL}"
+            bind_image_url="@{models.imageURL}"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             android:scaleType="centerCrop" />
