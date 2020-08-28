@@ -20,9 +20,16 @@ tags : lib-android
 
 ```java
 //DataBinding
+//안드로이드 스튜디오 4.0 미만
 dataBinding{
         enabled = true;
+}
+//안드로이드 스튜디오 4.0 이상
+android {
+    buildFeatures{
+        dataBinding = true
     }
+}
 ```
 
 <br>
@@ -32,9 +39,11 @@ dataBinding{
 ```java
 	//RecyclerView
 	implementation "androidx.recyclerview:recyclerview:1.1.0"
-    //MVVM
+    //LiveData
     implementation "android.arch.lifecycle:extensions:2.2.0"
     implementation "androidx.lifecycle:lifecycle-viewmodel:2.2.0"
+    implementation "androidx.lifecycle:lifecycle-extensions:2.2.0"
+    implementation 'androidx.appcompat:appcompat:1.1.0'
     //Retrofit
     implementation "com.squareup.retrofit2:retrofit:2.5.0"
     implementation "com.google.code.gson:gson:2.8.5"
@@ -45,8 +54,6 @@ dataBinding{
     implementation "gun0912.ted:tedpermission:2.0.0"
     //Glide
     implementation 'com.github.bumptech.glide:glide:4.10.0'
-    //LiveData
-    implementation 'androidx.appcompat:appcompat:1.1.0'
     //RXjava
     implementation 'io.reactivex.rxjava2:rxandroid:2.0.1'
     implementation 'io.reactivex.rxjava2:rxjava:2.1.0'

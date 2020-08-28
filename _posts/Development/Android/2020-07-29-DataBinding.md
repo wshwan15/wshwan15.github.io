@@ -356,7 +356,7 @@ String 형태의 URL을 가져올 것이기 때문에 String이 된다.
             android:id="@+id/iv"
             android:layout_width="65dp"
             android:layout_height="65dp"
-            bind_image_url="@{models.imageURL}"
+            app:bind_image_url="@{models.imageURL}"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             android:scaleType="centerCrop" />
@@ -369,6 +369,14 @@ String 형태의 URL을 가져올 것이기 때문에 String이 된다.
 이와 같이, 현재 Android 일반 View들의 속성이 내게 맞는 것이 없을 경우
 
 @BindingAdapter 기능을 이용하여 Custom해서 사용하는 방법을 쓰면 간단하게 해결할 수 있다.
+
+
+
+##### [주의할 점]
+
+`BindingAdapter`를 이용해서 만든 속성은 반드시 @{}를 사용해서 데이터를 전달해야 한다.
+
+추가로 `` 를 사용해서 String 값을 전달할 수 있음
 
 
 
@@ -514,7 +522,23 @@ View 값도 매개변수로 보낼 수 있음.
 
 
 
+---
 
+### 8. 2-way binding
+
+
+
+기존에 `@{}`를 사용한 binding은 `ViewModel`에서 `View` 로의 단방향 데이터바인딩 밖에 할 수 없다.
+
+따라서 만약, `EditText` 값을 가져온다는 등 `View` 에서 `ViewModel`로의 데이터바인딩을 원한다면 `@={}` 를 사용해야한다.
+
+`@={}`를 사용하면 `View(EditText 등)` 에서 바인딩된 데이터가 변경되었을 때 `ViewModel`에 바로 반영되게 된다.
+
+<br>
+
+
+
+---
 
 ### 끝마침
 
