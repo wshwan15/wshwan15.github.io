@@ -3,7 +3,7 @@ layout: post
 title : "중복된 개체 제거"
 subtitle : "중복된 개체 제거"
 category: library
-tags: lib-sql(MSSQL)
+tags: lib-sql
 ---
 
 # 중복된 개체를 제거하고 가장 최신의 것만 남기기

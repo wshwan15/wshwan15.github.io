@@ -3,7 +3,7 @@ layout: post
 title : "데이터베이스 용량 확인"
 subtitle : "데이터베이스/테이블 용량 확인"
 category: library
-tags: lib-sql(MSSQL)
+tags: lib-sql
 ---
 
 # DataBase 할당된/사용중인 용량 체크
